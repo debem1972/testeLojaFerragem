@@ -1394,11 +1394,10 @@ footer {
     #products,
     #highlights,
 
-    #localization
+    #localization,
 
-    /*#contact*/
-        {
-        scroll-margin-top: 140px;
+    #contact {
+        scroll-margin-top: 170px;
         /* Pequeno ajuste para evitar que o título fique colado no topo */
     }
 
