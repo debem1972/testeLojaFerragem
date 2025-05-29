@@ -1379,26 +1379,27 @@ footer {
 
 
 @media (max-width: 767px) {
-    .navbar {
-        padding: 10px 0;
-        /* Reduz o padding da navbar em mobile */
-    }
+    /* .navbar {
+        padding: 10px 0;*/
+    /* Reduz o padding da navbar em mobile */
+    /*}*/
 
-    .navbar-brand img {
-        max-height: 60px;
-        /* Reduz o tamanho do logo em mobile */
-    }
+    /*.navbar-brand img {
+        max-height: 60px;*/
+    /* Reduz o tamanho do logo em mobile */
+    /* }*/
 
 
     #services,
     #products,
     #highlights,
-
-    #localization,
-
-    #contact {
+    #localization {
         scroll-margin-top: 170px;
         /* Pequeno ajuste para evitar que o título fique colado no topo */
+    }
+
+    .contact-section #contact {
+        scroll-margin-top: 250px !important;
     }
 
     .contact-section {
