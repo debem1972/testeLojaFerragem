@@ -3,11 +3,9 @@
 //Trata do botão de retorno ao tôpo
 // Scroll to Top
 function scrollToTop() {
-    const navbarHeight = document.querySelector('.navbar').offsetHeight || 80; // Altura da navbar ou valor padrão
-    window.scrollTo({
-        top: navbarHeight, // Desloca até a altura da navbar
-        behavior: 'smooth'
-    });
+    document.documentElement.scrollTop = 0; // Força scroll do HTML
+    document.body.scrollTop = 0; // Força scroll do body
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 window.addEventListener('scroll', () => {
@@ -21,7 +19,6 @@ window.addEventListener('scroll', () => {
 //-----------------------------------------------------------------------
 
 
-//Trata da navegação do menu
 //Trata da navegação do menu
 // Smooth Scroll for Navbar Links
 document.querySelectorAll('.nav-link').forEach(anchor => {
