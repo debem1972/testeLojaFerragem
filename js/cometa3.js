@@ -3,6 +3,9 @@
 //Trata do botão de retorno ao tôpo
 // Scroll to Top
 function scrollToTop() {
+    // Remove a âncora da URL
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+
     document.documentElement.scrollTop = 0; // Força scroll do HTML
     document.body.scrollTop = 0; // Força scroll do body
     window.scrollTo({ top: 0, behavior: 'smooth' });
