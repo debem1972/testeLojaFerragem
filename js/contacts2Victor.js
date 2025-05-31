@@ -47,7 +47,7 @@ function copyEmail() {
 }
 
 // Partículas animadas
-const canvas = document.getElementById('particles-canvas');
+/*const canvas = document.getElementById('particles-canvas');
 const ctx = canvas.getContext('2d');
 
 // Ajustar tamanho do canvas
@@ -114,4 +114,4 @@ initParticles();
 animateParticles();
 
 // Ajustar canvas ao redimensionar
-window.addEventListener('resize', resizeCanvas);
+window.addEventListener('resize', resizeCanvas);*/
