@@ -1,10 +1,10 @@
 // Inicializar AOS Animation
 document.addEventListener('DOMContentLoaded', function () {
-    AOS.init({
+    /*AOS.init({
         duration: 800,
         easing: 'ease-in-out',
         once: true
-    });
+    });*/
 
     // Conteúdo dinâmico para o modal
     const serviceDetails = {
